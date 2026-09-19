@@ -1,0 +1,11 @@
+{
+  "farm_id": 74,
+  "name": "cerebron-farm-74-session-memory-encyclopedia",
+  "domain": "session-memory-encyclopedia",
+  "status": "RUNTIME-BOOTSTRAPPED",
+  "protocol": "SPIRALIX-OMEGA",
+  "capabilities": ["session-memory-schema","checkpoint-validation","canonical-memory-candidate"],
+  "evidence_ceiling": "E2-until-cross-session-retrieval-tested",
+  "kernel": "dmaillot95-ui/cerebron-omega-ai",
+  "rules": ["MEMORY!=LEARNING","EXECUTION_STATE!=CANONICAL_STATE","CLAIM<=EVIDENCE","VERIFY_BEFORE_COMMIT"]
+}
