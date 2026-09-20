@@ -1,0 +1,14 @@
+{
+  "schema": "cerebron-private-memory-pointer-v1",
+  "memory_id": "C01-SIGMA-MEMTEST-0001",
+  "colony_id": "C01-SIGMA",
+  "provider": "huggingface",
+  "private_repo_id": "cerebron-omega/cerebron-private-memory",
+  "private_object_path": "colony/C01-SIGMA/memory/C01-SIGMA-MEMTEST-0001.json",
+  "validation_status": "TEST_FIXTURE_VERIFIED",
+  "payload_sha256_status": "VERIFIED_IN_PRIVATE_RECALL_RUN",
+  "payload_sha256": null,
+  "privacy": "PRIVATE_PAYLOAD_NOT_STORED_HERE",
+  "source_workflow": "c01-private-memory-recall.yml",
+  "source_workflow_commit": "5426b74e4b9f25179cb43bdd368320cc8997dffa"
+}
