@@ -1,0 +1,16 @@
+{
+  "schema": "cerebron-saphea-generation-pointer-v1",
+  "memory_id": "C01-SIGMA-SIGMA-FORMALIZER-M1",
+  "colony_id": "C01-SIGMA",
+  "agent_id": "SIGMA-FORMALIZER",
+  "generation": "M1",
+  "parent_generation": "M0",
+  "memory_class": "checkpoint",
+  "provider": "huggingface",
+  "private_repo_id": "cerebron-omega/cerebron-private-memory",
+  "private_object_path": "colony/C01-SIGMA/agents/SIGMA-FORMALIZER/memory/M1/checkpoint.json",
+  "validation_status": "TEST_FIXTURE_PENDING_FULL_CATALOG_RECALL",
+  "rollback_generation": "M0",
+  "privacy": "PRIVATE_PAYLOAD_NOT_STORED_HERE",
+  "source_workflow": "saphea-generation-catalog-test.yml"
+}
