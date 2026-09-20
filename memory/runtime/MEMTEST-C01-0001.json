@@ -1,0 +1,14 @@
+{
+  "schema": "cerebron-validated-memory-v1",
+  "memory_id": "MEMTEST-C01-0001",
+  "colony_id": "C01-SIGMA",
+  "status": "VALIDATED_TEST_FIXTURE",
+  "claim": "Cross-repository persistence fixture",
+  "provenance": {
+    "source": "CEREBRON master memory fabric",
+    "type": "synthetic-test"
+  },
+  "evidence_status": "TEST_FIXTURE",
+  "audit_status": "TEST_FIXTURE",
+  "payload_sha256": "1f3d2c1d-pending-cross-check"
+}
