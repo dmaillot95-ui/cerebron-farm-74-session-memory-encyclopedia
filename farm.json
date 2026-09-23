@@ -1,11 +1,37 @@
 {
   "farm_id": 74,
   "name": "cerebron-farm-74-session-memory-encyclopedia",
-  "domain": "session-memory-encyclopedia",
-  "status": "RUNTIME-BOOTSTRAPPED",
+  "domain": "sigma-platform-intelligence-model-lab",
+  "status": "SIGMA-ARCHITECTURE-CONFIGURED",
   "protocol": "SPIRALIX-OMEGA",
-  "capabilities": ["session-memory-schema","checkpoint-validation","canonical-memory-candidate"],
-  "evidence_ceiling": "E2-until-cross-session-retrieval-tested",
+  "capabilities": [
+    "session-memory-schema",
+    "checkpoint-validation",
+    "canonical-memory-candidate",
+    "sigma-platform-native-ai",
+    "teacher-ensemble-orchestration",
+    "gold-trace-curation",
+    "distillation",
+    "lora-qlora-training",
+    "compatible-weight-merging",
+    "agora-participation",
+    "m6-benchmark",
+    "red-team"
+  ],
+  "evidence_ceiling": "ARCHITECTURE_CONFIGURED_TRAINING_NOT_YET_EXECUTED",
   "kernel": "dmaillot95-ui/cerebron-omega-ai",
-  "rules": ["MEMORY!=LEARNING","EXECUTION_STATE!=CANONICAL_STATE","CLAIM<=EVIDENCE","VERIFY_BEFORE_COMMIT"]
+  "rules": [
+    "MEMORY!=LEARNING",
+    "EXECUTION_STATE!=CANONICAL_STATE",
+    "CLAIM<=EVIDENCE",
+    "VERIFY_BEFORE_COMMIT",
+    "HETEROGENEOUS_WEIGHTS_MUST_NOT_BE_AVERAGED",
+    "DISTILLATION_BEFORE_CROSS_MODEL_WEIGHT_MERGE",
+    "TRAINING_REQUIRES_WEIGHTS_CHANGED",
+    "M6_NEVER_IN_TRAIN",
+    "TRANSFER_BEFORE_GENERALITY"
+  ],
+  "identity": "SIGMA",
+  "display_name": "SIGMA Platform Intelligence Model Lab",
+  "legacy_domain": "session-memory-encyclopedia"
 }
