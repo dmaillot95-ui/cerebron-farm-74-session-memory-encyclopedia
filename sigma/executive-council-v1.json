@@ -1,0 +1,22 @@
+{
+  "schema": "SIGMA_F74_EXECUTIVE_COUNCIL_V1",
+  "manager": "SIGMA",
+  "orchestrator": "CEREBRON",
+  "seat_count": 8,
+  "delegates": [
+    "SAPHEA",
+    "SPIRALION",
+    "ETHERION",
+    "HYPERION",
+    "ASTRION",
+    "METRION",
+    "AFAH",
+    "AELYS"
+  ],
+  "embodied_specialist": "ELYRA",
+  "specialist_population": "SAPHEA_MICRO",
+  "execution_rule": "ACTUAL_RUN_REQUIRED_FOR_EXECUTED_STATUS",
+  "independence_rule": "SHARED_BASE_MODEL_IS_CORRELATED",
+  "default_policy": "MINIMAL_USEFUL_COALITION",
+  "full_policy": "FULL_COUNCIL_8_ON_REQUEST"
+}
