@@ -57,6 +57,14 @@
     "training_strategy": "DISTILLATION_FROM_VALIDATED_MULTI_ROLE_AND_REAL_TOOL_TRACES",
     "neural_independence_current": "SHARED_QWEN_COUNTS_AS_ONE_GENERAL_NEURAL_DEPENDENCY",
     "huggingface_repo": "cerebron-omega/cerebron-sigma-memory",
-    "huggingface_bootstrap_run_id": 35912062787
+    "huggingface_bootstrap_run_id": 35912062787,
+    "full_council_e2e": {
+      "status": "EXECUTED_VERIFIED",
+      "run_id": 35912363315,
+      "artifact_id": 10773053770,
+      "result_sha256": "b4cecebd05e2fb6737adf0d52eb92152482c781644e9d81ac02b2a7f20d1d9a0",
+      "shared_general_neural_dependency": "Qwen/Qwen2.5-0.5B-Instruct",
+      "independent_general_neural_models": 1
+    }
   }
 }
