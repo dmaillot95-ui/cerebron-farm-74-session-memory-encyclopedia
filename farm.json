@@ -33,5 +33,28 @@
   ],
   "identity": "SIGMA",
   "display_name": "SIGMA Platform Intelligence Model Lab",
-  "legacy_domain": "session-memory-encyclopedia"
+  "legacy_domain": "session-memory-encyclopedia",
+  "sigma": {
+    "platform_manager": true,
+    "executive_council_seats": 8,
+    "executive_delegates": [
+      "SAPHEA",
+      "SPIRALION",
+      "ETHERION",
+      "HYPERION",
+      "ASTRION",
+      "METRION",
+      "AFAH",
+      "AELYS"
+    ],
+    "non_voting_capabilities": [
+      "ELYRA",
+      "SAPHEA_MICRO"
+    ],
+    "orchestrator": "CEREBRON",
+    "memory_backend": "huggingface_private",
+    "memory_backend_status": "CREDENTIAL_PROBE_PENDING",
+    "training_strategy": "DISTILLATION_FROM_VALIDATED_MULTI_ROLE_AND_REAL_TOOL_TRACES",
+    "neural_independence_current": "SHARED_QWEN_COUNTS_AS_ONE_GENERAL_NEURAL_DEPENDENCY"
+  }
 }
