@@ -1,0 +1,24 @@
+{
+  "schema": "SIGMA_F74_HF_MEMORY_POLICY_V1",
+  "target": "huggingface_private",
+  "status": "BACKEND_NOT_YET_AUTHENTICATED",
+  "token_source": "HF_TOKEN_OR_HUGGING_FACE_HUB_TOKEN_ENV_ONLY",
+  "repo_source": "CEREBRON_HF_SIGMA_REPO_ENV",
+  "allowed": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M7"
+  ],
+  "forbidden_training_class": "M6",
+  "write_gate": [
+    "SHA256",
+    "PROVENANCE",
+    "DEDUP",
+    "MEMORY_CLASS",
+    "AFAH_OR_ROLE_AUDIT"
+  ],
+  "no_secret_commit": true
+}
