@@ -53,8 +53,10 @@
     ],
     "orchestrator": "CEREBRON",
     "memory_backend": "huggingface_private",
-    "memory_backend_status": "CREDENTIAL_PROBE_PENDING",
+    "memory_backend_status": "CONNECTED_VERIFIED_PRIVATE",
     "training_strategy": "DISTILLATION_FROM_VALIDATED_MULTI_ROLE_AND_REAL_TOOL_TRACES",
-    "neural_independence_current": "SHARED_QWEN_COUNTS_AS_ONE_GENERAL_NEURAL_DEPENDENCY"
+    "neural_independence_current": "SHARED_QWEN_COUNTS_AS_ONE_GENERAL_NEURAL_DEPENDENCY",
+    "huggingface_repo": "cerebron-omega/cerebron-sigma-memory",
+    "huggingface_bootstrap_run_id": 35912062787
   }
 }
