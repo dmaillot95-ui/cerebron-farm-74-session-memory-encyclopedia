@@ -1,0 +1,19 @@
+{
+  "schema": "cerebron-ai-private-pointer-v2",
+  "memory_id": "F148-ALPHA-M03-35995124491",
+  "ai_id": "F148-ALPHA",
+  "identity": "ALPHA",
+  "agent_slot": "A6_MEMORY_KEEPER",
+  "memory_class": "M7_EVIDENCE",
+  "generation": "M03",
+  "parent_generation": null,
+  "provider": "huggingface",
+  "private_repo_id": "cerebron-omega/cerebron-private-memory",
+  "private_object_path": "ai/f148-alpha/agent/A6_MEMORY_KEEPER/M7_EVIDENCE/35995124491.json",
+  "payload_sha256": "b80f7157bdedb555b61a01ab979d8162ca4b921a1bb938a79c6782509ba6516a",
+  "validation_status": "HF_WRITE_READ_SHA_PASS",
+  "source_run_id": "35995124491",
+  "rollback_generation": null,
+  "rollback_status": "FIRST_VERSION_NO_PRIOR_POINTER",
+  "privacy": "PRIVATE_PAYLOAD_NOT_STORED_HERE"
+}

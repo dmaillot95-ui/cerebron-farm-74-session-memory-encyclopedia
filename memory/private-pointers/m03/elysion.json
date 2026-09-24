@@ -1,0 +1,19 @@
+{
+  "schema": "cerebron-ai-private-pointer-v2",
+  "memory_id": "ELYSION-M03-35995124491",
+  "ai_id": "ELYSION",
+  "identity": "ELYSION",
+  "agent_slot": "A6_MEMORY_KEEPER",
+  "memory_class": "M7_EVIDENCE",
+  "generation": "M03",
+  "parent_generation": null,
+  "provider": "huggingface",
+  "private_repo_id": "cerebron-omega/cerebron-private-memory",
+  "private_object_path": "ai/elysion/agent/A6_MEMORY_KEEPER/M7_EVIDENCE/35995124491.json",
+  "payload_sha256": "0c94484c7208d69486ea1a8f3a7ae33812e572ebbad7df0b199e9d3e51a8fe9d",
+  "validation_status": "HF_WRITE_READ_SHA_PASS",
+  "source_run_id": "35995124491",
+  "rollback_generation": null,
+  "rollback_status": "FIRST_VERSION_NO_PRIOR_POINTER",
+  "privacy": "PRIVATE_PAYLOAD_NOT_STORED_HERE"
+}

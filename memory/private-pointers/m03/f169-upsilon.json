@@ -1,0 +1,19 @@
+{
+  "schema": "cerebron-ai-private-pointer-v2",
+  "memory_id": "F169-UPSILON-M03-35995124491",
+  "ai_id": "F169-UPSILON",
+  "identity": "UPSILON",
+  "agent_slot": "A6_MEMORY_KEEPER",
+  "memory_class": "M7_EVIDENCE",
+  "generation": "M03",
+  "parent_generation": null,
+  "provider": "huggingface",
+  "private_repo_id": "cerebron-omega/cerebron-private-memory",
+  "private_object_path": "ai/f169-upsilon/agent/A6_MEMORY_KEEPER/M7_EVIDENCE/35995124491.json",
+  "payload_sha256": "59512919ca182ab24dc9404e66b157b9ed367fafd483141a0adf7ea21cd3bdb8",
+  "validation_status": "HF_WRITE_READ_SHA_PASS",
+  "source_run_id": "35995124491",
+  "rollback_generation": null,
+  "rollback_status": "FIRST_VERSION_NO_PRIOR_POINTER",
+  "privacy": "PRIVATE_PAYLOAD_NOT_STORED_HERE"
+}
